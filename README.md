@@ -27,7 +27,7 @@ python3 validate_genomic_json.py data/*.json -o final_results/
 - `combined_actionable.tsv` – Clinical recommendations
 - `validation_summary.tsv` – QC metrics
 
-## JSON Repair Utilities (TU NGS)
+## JSON Repair Utilities (Only applicable to Tuebinegn subset (n=2584) NGS only JSONs)
 
 - `fix_double_commas.sh` – Removes double commas (`,,`) from malformed JSON files
 - `fix_trailing_commas.sh` – Removes trailing commas before closing braces/brackets
